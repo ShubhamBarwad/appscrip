@@ -51,7 +51,7 @@ function Filter() {
                 </div>
                 {
                     filters.map(filter => (
-                        <div className='border-b py-6 flex justify-between items-start'>
+                        <div key={filter.label} className='border-b py-6 flex justify-between items-start'>
                             <div>
                                 <p className='uppercase text-lg font-bold mb-2'>{filter.label}</p>
                                 <p className='capitalize'>{filter.fil}</p>
