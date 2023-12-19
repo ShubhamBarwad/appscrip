@@ -27,7 +27,7 @@ function Footer() {
                         <p className='text-xs'>Transactions will be completed in Euros and a currency reference is available on hover.</p>
                     </div>
                 </div>
-                <div className='flex justify-between items-start'>
+                <div className='flex justify-between items-start my-14'>
                     <div className='flex flex-col gap-4'>
                         <p className='mb-1 font-bold text-2xl'>mettā muse</p>
                         <p className='capitalize text-lg'>About Us</p>
