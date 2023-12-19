@@ -29,7 +29,7 @@ function MegaMenu() {
         <div className='flex gap-16 mt-14'>
             {
                 megaMenuItems.map(menuItem => (
-                    <Link className='uppercase text-xl font-bold' href={menuItem.href}>{menuItem.text}</Link>
+                    <Link key={menuItem.text} className='uppercase text-xl font-bold' href={menuItem.href}>{menuItem.text}</Link>
                 ))
             }
         </div>

@@ -34,7 +34,7 @@ function HeaderMenu() {
     <div className='flex gap-6 z-10'>
         {
             headerMenu.map(menuItem => (
-                <Link className={`${menuItem.style}`} href={menuItem.link}>
+                <Link key={menuItem.alt} className={`${menuItem.style}`} href={menuItem.link}>
                     <Image className='w-5 h-5 md:w-6 md:h-6' src={menuItem.icon} width={24} height={24} alt={menuItem.alt}/>
                 </Link>
             ))
