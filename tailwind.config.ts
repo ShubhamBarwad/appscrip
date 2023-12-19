@@ -8,11 +8,21 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens:{
+        'xs': '340px'
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      fontFamily:{
+        inter: ['var(--font-inter)'],
+        barlow: ['var(--font-barlow)']
+      },
+      gridTemplateColumns:{
+        responsive: 'repeat(auto-fit, minmax(300px,1fr))'
+      }
     },
   },
   plugins: [],
